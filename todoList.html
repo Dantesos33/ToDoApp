@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="heading">To Do App</div>
+        <div class="form">
+            <input class="form__input" type="text" placeholder="Enter Task...">
+            <button class="add-btn">Add</button>
+        </div>
+        <div class="tasks">
+            <div class="tasks__heading">Tasks</div>
+            <div class="filters_list">
+                <select class="filters" name="categories">
+                    <option value="all">All</option>
+                    <option value="completed">Completed</option>
+                    <option value="incompleted">Incompleted</option>
+                </select>
+            </div>
+            <ul class="task__list">
+            </ul>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
