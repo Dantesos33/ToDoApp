@@ -20,11 +20,11 @@ add_btn.addEventListener("click", () => {
     task.appendChild(del);
 
     let edit = document.createElement("span");
-    edit.innerText = "Edit"; // Edit button with pencil icon
+    edit.innerText = "Edit"; 
     edit.style.marginRight = "1.5rem";
     edit.style.borderRadius = "20px";
     edit.style.backgroundColor = "blue";
-    task.insertBefore(edit, del); // Insert before delete button (assuming del exists)
+    task.insertBefore(edit, del); 
 
     saveData();
   }
